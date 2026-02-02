@@ -1,16 +1,59 @@
-# React + Vite
+# Product Explorer (Frontend Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: https://product-explorerrr.netlify.app/
 
-Currently, two official plugins are available:
+A simple, clean, and responsive frontend application built with **React** that fetches products from a **public REST API** and displays them dynamically.  
+This project was created as part of a Frontend Developer Intern screening task.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✅ Task Requirements Coverage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Responsive Web Page
+- Mobile-first design approach
+- Responsive layout using **CSS Grid** and **Flexbox**
+- Clean UI with consistent spacing and alignment
 
-## Expanding the ESLint configuration
+### 2. HTML, CSS, JavaScript
+- **HTML** via JSX (semantic elements like `button`, `select`, `img`)
+- **CSS** written in `src/styles/global.css`
+- **JavaScript** for API fetching, filtering, cart logic, and UI updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. API Integration
+- Products API: https://fakestoreapi.com/products
+- Categories API: https://fakestoreapi.com/products/categories
+
+### 4. Dynamic Rendering
+- Products rendered dynamically using `.map()`
+- Real-time search by product title
+- Category-based filtering
+- Cart updates dynamically using state
+
+### 5. Loading & Error Handling
+- Loading state displayed while fetching data
+- Error state with retry option if API request fails
+
+### 6. React Usage (Preferred Framework)
+- Proper component-based architecture
+- State management using React Hooks:
+  - `useState`
+  - `useEffect`
+  - `useMemo`
+  - `useReducer`
+
+
+## 🚀 Features
+- Responsive product cards (CSS Grid)
+- Search products by title
+- Filter products by category
+- Loading, error, and retry handling
+- Add to Cart functionality
+- Cart drawer with:
+  - Quantity increase/decrease
+  - Remove item
+  - Clear cart
+  - Total price calculation
+
+---
+
+## 📁 Folder Structure
