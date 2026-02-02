@@ -54,6 +54,4 @@ This project was created as part of a Frontend Developer Intern screening task.
   - Clear cart
   - Total price calculation
 
----
 
-## 📁 Folder Structure
