@@ -1,4 +1,4 @@
-# Product Explorer (Frontend Assignment)
+# Product Explorer 
 
 Live Demo: https://product-explorerrr.netlify.app/
 
